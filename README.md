@@ -1,4 +1,4 @@
-Created by Mohammed Mahmud
+# Copyright © by Mohammad Mahmud
 # Monty-Hall-Problem-Simulation
 it's a probability simulation based on Monty Hall Problem/Game.
 it will show from in the long run and short run result. 
