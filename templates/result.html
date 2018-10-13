@@ -1,0 +1,20 @@
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Title</title>#}
+{#</head>#}
+{#<body>#}
+{##}
+{#<script type="text/javascript" src="run_result.js"></script>#}
+{##}
+{#</body>#}
+{#</html>#}
+
+
+<p><span id="username"></span></p>
+<script>
+    var user = JSON.parse('{{ user | tojson | safe}}');
+    {#document.write( user.firstname);#}
+    document.getElementById('username').innerHTML = JSON.stringify(user).;
+</script>
