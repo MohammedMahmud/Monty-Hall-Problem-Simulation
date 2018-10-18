@@ -1,20 +1,51 @@
-{#<!DOCTYPE html>#}
-{#<html lang="en">#}
-{#<head>#}
-{#    <meta charset="UTF-8">#}
-{#    <title>Title</title>#}
-{#</head>#}
-{#<body>#}
-{##}
-{#<script type="text/javascript" src="run_result.js"></script>#}
-{##}
-{#</body>#}
-{#</html>#}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Monty-Hall-Problem-Simulator</title>
+        <style>
+            #center {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+
+    <h1 id="center">Monty Hall Problem Simulator</h1>
+    <script>
+        document.write("<style>" +
+                        "#tableFirst {" +
+                        "text-align: center;" +
+                        "border: 3px solid black;" +
+                        "margin-left:auto;" +
+                        "margin-right:auto;" +
+                        "}"+
+                        "</style>");
+        let user = JSON.parse('{{ user | tojson | safe}}');
+         document.write(
+             "<table width='70%' border='1' id='tableFirst'>" +
+                "<tr>" +
+                    "<th>Game Number</th>" +
+                    "<th>Game Details</th>" +
+                    "<th>Which Door User Picked</th>" +
+                    "<th>Winner OR Loser</th>" +
+                "</tr>");
+        let i;
+        for (i = 0; i < user.length; i++) {
+           document.write("<tr>" +
+                               "<td>"+(i+1)+"</td>" +
+                               "<td>"+user[i].Game_Details+"</td>" +
+                               "<td>"+user[i].user_pick_dore+"</td>" +
+                               "<td>"+user[i].WinnerOrloser+"</td>" +
+                           "</tr>");
+        }
+        document.write("</table>")
+    </script>
+
+    </body>
+
+</html>
 
 
-<p><span id="username"></span></p>
-<script>
-    var user = JSON.parse('{{ user | tojson | safe}}');
-    {#document.write( user.firstname);#}
-    document.getElementById('username').innerHTML = JSON.stringify(user).;
-</script>
+
+
