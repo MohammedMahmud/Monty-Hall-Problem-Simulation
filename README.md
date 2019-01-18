@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+# Monty-Hall-Problem-Simulation
 
-You can use the [editor on GitHub](https://github.com/MohammedMahmud/Monty-Hall-Problem-Simulation/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This simulation shows and generates a series of multiple Monty-Hall Games. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## Getting Started
+Clone the directory to your desktop or any folder.
+to clone this directory copy & paste in this your Terminal
+```
+git clone https://github.com/MohammedMahmud/RaspberryPi-Maintenance-Terminal-Tool.git
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Installing
+##### Make sure you already have Python 3.7.0 or above  
+(cd == change directory)
+cd to your directory.
 
-### Jekyll Themes
+* This will Immediately start updating and upgrading your packages
+```
+python3 PI_Maintenance.py -now
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MohammedMahmud/Monty-Hall-Problem-Simulation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+For HELP Type:
+```
+python3 PI_Maintenance.py --help
+```
+![RaspberryPi-Maintenance-Terminal-Tool/ScreenshotHelp.png](ScreenshotHelp.png)
+## Built With -- Module
 
-### Support or Contact
+* [Python](https://www.python.org) - A high-level programming language
+* [Datetime](https://docs.python.org/3.7/library/datetime.html) - This Module for Basic date and time.
+* [Argparse](https://docs.python.org/3/library/argparse.html) - This Module for Parser for command-line options, arguments and sub-commands
+* [Subprocess](https://docs.python.org/3/library/subprocess.html) - This Module for Subprocess management.
+* [os](https://docs.python.org/3/library/os.html) - This module provides a portable way of using operating system dependent functionality.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+## Authors
+
+* **Mohammed Mahmud** - *Initial work* - [Mohammed Mahmud](https://github.com/MohammedMahmud)
+
+## License
+
+This project is licensed under the MIT License - see the [RaspberryPi-Maintenance-Terminal-Tool/LICENSE](LICENSE) file for details
