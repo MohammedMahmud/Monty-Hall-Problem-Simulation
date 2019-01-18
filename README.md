@@ -1,6 +1,6 @@
 # Monty-Hall-Problem-Simulation
 
-![Monty-Hall-Problem-Simulation/Pic/1.png](1.jpg)
+![Monty-Hall-Problem-Simulation/Pic/1.jpg](1.jpg)
 
 This simulation shows and generates a series of multiple Monty-Hall Games.
 Simulation  Suppor
@@ -13,7 +13,7 @@ to clone this directory copy & paste in this your Terminal
 ```
 git clone https://github.com/MohammedMahmud/RaspberryPi-Maintenance-Terminal-Tool.git
 ```
-
+1.png
 ### Installing
 ##### Make sure you already have Python 3 or Above  
 
