@@ -1,6 +1,6 @@
 # Monty-Hall-Problem-Simulation
 
-![RaspberryPi-Maintenance-Terminal-Tool/ScreenshotHelp.png](ScreenshotHelp.png)
+![Monty-Hall-Problem-Simulation/Pic/1.png](1.jpg)
 
 This simulation shows and generates a series of multiple Monty-Hall Games.
 Simulation  Suppor
