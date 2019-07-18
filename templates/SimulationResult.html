@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %} Simulation Result {% endblock %}
+
+{% block content %}
+     <table class="table table-sm">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Game Number</th>
+                    <th scope="col">Game Draw</th>
+                    <th class="th-sm" scope="col">Simulator Picked Door</th>
+                    <th scope="col">Winner OR Loser</th>
+                </tr>
+            </thead>
+        {% for x in users %}
+            <tbody>
+                {%  if x["WinnerOrLoser"] == 'Loser'  %}
+                    <tr class="table-danger">
+                        <th scope="row">{{ loop.index }}</th>
+                        <td>{{ x["Game_Details"].0 }} {{ x["Game_Details"].1 }} {{ x["Game_Details"].2 }}</td>
+                        <td>{{ x["Simulator_Pick_Dore"] }}</td>
+                        <td>{{ x["WinnerOrLoser"] }}</td>
+                    </tr>
+                {% else %}
+                     <tr class="table-success">
+                        <th scope="row">{{ loop.index }}</th>
+                        <td>{{ x["Game_Details"].0 }} {{ x["Game_Details"].1 }} {{ x["Game_Details"].2 }}</td>
+                        <td>{{ x["Simulator_Pick_Dore"] }}</td>
+                        <td>{{ x["WinnerOrLoser"] }}</td>
+                    </tr>
+                {% endif %}
+            </tbody>
+        {% endfor %}
+     </table>
+
+{% endblock %}
+
+
