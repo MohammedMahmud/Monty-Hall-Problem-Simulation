@@ -29,7 +29,9 @@ python3 app.py
 ##### Then go to the IP address below; Type it in your browser
 ![Monty Hall Problem](Pic/3.png)
 ##### Type a number & generate :) 
-![Monty Hall Problem](Pic/Image.png)
+![Monty Hall Problem](Pic/New 3.png)
+##### NEW Statistics
+![Monty Hall Problem](Pic/New Graph.png)
 
 ## Built With and Modules
 * [Python](https://www.python.org) - A High-level programming language.
