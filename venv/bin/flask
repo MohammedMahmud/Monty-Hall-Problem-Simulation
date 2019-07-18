@@ -1,5 +1,4 @@
-#!/Users/samin/Documents/Monty-Hall-Problem-Simulation/venv/bin/python
-
+#!/Users/samin/Desktop/Monty-Hall-Problem-Simulation/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

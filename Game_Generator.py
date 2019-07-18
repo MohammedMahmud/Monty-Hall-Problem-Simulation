@@ -57,7 +57,7 @@ def judgment(game_data, switching_or_not):
             else:
                 WinnerOrloser = "Winner"
 
-        SchoolKeeper.append({'Game_Details':  x, 'user_pick_dore': user_pick_dore, "WinnerOrloser": WinnerOrloser})
+        SchoolKeeper.append({'Game_Details':  x, 'Simulator_Pick_Dore': user_pick_dore, "WinnerOrLoser": WinnerOrloser})
 
     return SchoolKeeper
 
