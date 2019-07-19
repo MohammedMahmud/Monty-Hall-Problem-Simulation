@@ -1,6 +1,6 @@
 # Monty-Hall-Problem-Simulation
 
-![Monty Hall Problem](Pic/1.jpg) 
+![Monty Hall Problem](Pic/Readme_Intro.jpg) 
 
 This simulation shows and generates a series of multiple Monty-Hall Games.
 Simulation  Supports Switching doors and NOT switching doors also.
@@ -25,24 +25,19 @@ In the terminal cd to your Monty Hall directory
 python3 app.py 
 ```
 ##### When you start your server in local it should look something like this.
-![Monty Hall Problem](Pic/2.png)
+![Monty Hall Problem](Pic/Server_Status.png)
 ##### Then go to the IP address below; Type it in your browser
-![Monty Hall Problem](Pic/3.png)
+![Monty Hall Problem](Pic/Homepage.png)
 ##### Type a number & generate :) 
-![Monty Hall Problem](Pic/New 3.png)
+![Monty Hall Problem](Pic/Game_Board.png)
 ##### NEW Statistics
-![Monty Hall Problem](Pic/New Graph.png)
+![Monty Hall Problem](Pic/Game_Statistics.png)
 
 ## Built With and Modules
 * [Python](https://www.python.org) - A High-level programming language.
 * [JavaScript](https://www.javascript.com/) - A High-level programming language.
 * [Flask](http://flask.pocoo.org/) - Flask is a micro web framework written in Python.
 
-## New Update -- Soon 2019 -- V1.1
-* More Statistics Features
-* Sharing Result In Social Media
-* Exporting Functionality
-* More Efficient Time To Run The Simulation
 
 ## Authors
 * **Mohammed Mahmud** - *Initial work* - [Mohammed Mahmud](https://github.com/MohammedMahmud)
